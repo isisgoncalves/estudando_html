@@ -1,0 +1,152 @@
+<h1>Aprendendo HTML</h1>
+
+<div>
+<h3>Palavras em Negrito</h3>
+<p>
+Inserir a tag <strong> < strong > </strong> antes da palavra.
+</p>
+<p>
+Exemplo:
+</p>
+<p>
+Palavras em <strong>Negrito</strong> no HTML
+</p>
+<p>
+Palavras em < strong > <strong>Negrito</strong> < / strong > no HTML
+</p>
+</div>
+
+<div>
+  <h3>
+    Como inserir Links
+  </h3>
+  <p>
+    Ao clicar " <strong>a</strong> ", é acionada a tag <strong> < a href="" </strong>
+  </p>
+  <p>Responsável pelo direcionamento de links na página.</p>
+  <p>Exemplos:</p>
+  
+  <a href="https://google.com">Google</a>
+  <p>
+  < a href=" https://google.com" > Google (página direcionada) < / a >
+  </p>
+  <a href="https://instagram.com/Usuario">Instagram</a>
+  <p>
+    < a href=" https://instagram.com/Usuario " > Instagram < / a >
+  </p>
+  <a href="http://facebook.com/Usuario">Facebook</a>
+  <p>
+    < a href=" http://facebook.com/Usuario " > Facebook < / a >
+  </p>
+  <a href="mailto:usuario@provedor.com">Fale Conosco</a>
+  <p>
+    < a href=" mailto: usuario@provedor.com " > Fale Conosco < / a >
+  </p>
+</div>
+  
+<div>
+<h3>DOCTYPE</h3>
+<p>
+No HTML , o <strong>DOCTYPE</strong> é a introdução " < ! DOCTYPE html > " encontrada no topo de todos os documentos.
+Basta clicar a tecla <strong>!</strong> e aparecerá a tag.
+</p>
+<p>Modelo:</p>
+<h5>
+< ! DOCTYPE html >
+<br>
+< html lang="en" > (Modificar a linguagem para "pt-br")
+<br>
+< head >
+<br>
+  < meta charset="UTF-8" >
+<br>
+  < meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  (Sempre excluir esta linha, que contém EDGE no final.
+  Esta função caíu em desuso e pode causar erros no código.)
+  <br>
+  < meta name="viewport" content="width=device-width, initial-scale=1.0" > 
+  (Nunca excluir a 3° linha, onde contem o VIEWPORT.
+  É responsável por manter a visualização em qualquer tela, sem sofrer alteração de tamanho.
+  Desde um smartphone, tablet, a um monitor de computador)
+  <br>
+  < title > Document (Substituir por um Título do Projeto) < / title >
+  <br>
+  < / head >
+  <br>
+  < body >
+  <br>
+  Corpo: Conteúdo do Projeto a ser executado.
+  <br>
+  < / body >
+  <br>
+  < / html > (Fim do documento)
+  </h5>
+
+ <img />
+ <!--Na tag "img" devemos fecha-la com "/>"
+ Não há necessidade de fechar como as outras tags, pois não tem conteúdo interno.
+ Mas devemos inserir a localização da imagem com as seguintes informações:
+ Após o "<img" inserir "src="" " (source: fonte). Refere-se a origem da imagem.
+ Na pasta "images", deve conter a imagem a ser selecionada.
+ Importante ressaltar que ao salvar a imagem, devemos renomea-la para fácil localização e insercão no html.
+Exemplo: <img src="images/IMAGEM1.jpg"/> 
+Este comando indica o nome da pasta (images) e o nome do arquivo a ser anexado (IMAGEM1.jpg)
+Acessibilidade na imagem:
+Com a função ALT após o nome da imagem, possibilita ao navegador ter uma descrição da imagem.
+Em caso de erro, ou até mesmo por uma questão de acessibilidade visual.
+Acrescenta-se: alt="Descrição da imagem"
+Exemplo: <img src="images/IMAGEM1.jpg" alt="Descrição da imagem 1"/>
+(isto requer o máximo de detalhes na descrição)
+-->
+
+<div>
+<!--
+  DIV: Agrupamento/ caixinhas
+  Pode ser colocado texto, imagens, links ou qualquer outro conteúdo DENTRO da caixa.
+  As DIVs podem ser utilizadas diversas vezes em uma página, com diversos conteúdos.
+  Para diferencia-las, podemos usar um ID (identificador) desta forma:
+  Exemplo: <div id="box1">
+  Desta forma podemos estilizar cada caixinha no CSS de uma forma diferente, 
+  através de um ID (Identificador).
+-->
+
+<h1>Heading= Título</h1>
+<!--Sempre que houver o "H" (heading), refere-se a título.
+A numeração diferencia apenas o tamanho da letra-->
+
+<p>Parágrafo</p>
+<!--O "P" refere-se a parágrafo. Normalmente utilizado após um título.
+Pode ser empregado diversas vezes dentro de um texto.-->
+
+</div>
+
+<span>Pesquisar sobre</span>
+
+<link rel="stylesheet" href="style.css">
+<!--
+Link:css
+Onde tudo começa a ganhar cores e formas.
+Á partir deste link, o projeto é configurado pelo CSS
+Abrir um arquivo na mesma pasta do projeto: style.css
+Neste arquivo ocorre a linguagem para estilizar o projeto.
+ -->
+
+ <br/> 
+ <!-- Quebra de Linha - Sigla de Break
+ Pode ser usado para quebra de linha em um mesmo parágrafo,
+ sem a necessidade de criar mais um parágrafo. -->
+
+ <!--
+  &nbsp; (Forma prática, mas não convencional)
+  Espaçamento em uma mesma linha
+  Para mais que um espaçamento, é só repetir a tag.
+  Exemplo:
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  (3 espaçamentos entre uma palavra e outra, em uma mesma linha)
+
+ -->
+
+ <p>Pesquisar mais como adicionar fontes ao projeto</p>
+
