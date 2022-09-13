@@ -51,76 +51,102 @@ No HTML , o <strong>DOCTYPE</strong> é a introdução " < ! DOCTYPE html > " en
 Basta clicar a tecla <strong>!</strong> e aparecerá a tag.
 </p>
 <p>Modelo:</p>
-<h5>
+<br>
 < ! DOCTYPE html >
 <br>
-< html lang="en" > (Modificar a linguagem para "pt-br")
+< html lang="en" > <strong>(Modificar a linguagem para "pt-br")</strong>
 <br>
 < head >
 <br>
   < meta charset="UTF-8" >
 <br>
   < meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  (Sempre excluir esta linha, que contém EDGE no final.
-  Esta função caíu em desuso e pode causar erros no código.)
+  <strong>(Sempre excluir esta linha, que contém EDGE no final.
+    Esta função caíu em desuso e pode causar erros no código.)</strong>
   <br>
   < meta name="viewport" content="width=device-width, initial-scale=1.0" > 
-  (Nunca excluir a 3° linha, onde contem o VIEWPORT.
-  É responsável por manter a visualização em qualquer tela, sem sofrer alteração de tamanho.
-  Desde um smartphone, tablet, a um monitor de computador)
+  <strong>(Nunca excluir a 3° linha, onde contem o VIEWPORT.
+    É responsável por manter a visualização em qualquer tela, sem sofrer alteração de tamanho.
+    Desde um smartphone, tablet, a um monitor de computador)</strong>
   <br>
-  < title > Document (Substituir por um Título do Projeto) < / title >
+  < title > Document <strong>(Substituir por um Título do Projeto)</strong> < / title >
   <br>
   < / head >
   <br>
   < body >
   <br>
-  Corpo: Conteúdo do Projeto a ser executado.
+  <strong>Corpo: Conteúdo do Projeto a ser executado.</strong>
   <br>
   < / body >
   <br>
   < / html > (Fim do documento)
-  </h5>
+  </p>
 
- <img />
- <!--Na tag "img" devemos fecha-la com "/>"
+ <h3>Inserir Imagem</h3>
+ <h4>Tag: < img /></h4>
+ <p>
+ Na tag <strong>img</strong> devemos fecha-la com <strong> "/>" </strong>
+ <br>
  Não há necessidade de fechar como as outras tags, pois não tem conteúdo interno.
+ <br>
  Mas devemos inserir a localização da imagem com as seguintes informações:
- Após o "<img" inserir "src="" " (source: fonte). Refere-se a origem da imagem.
- Na pasta "images", deve conter a imagem a ser selecionada.
+ <br>
+ Após o <strong>< img</strong> inserir <strong> src=""</strong> (source: fonte). 
+ Refere-se a origem da imagem.
+ <br>
+ Na pasta <strong>images</strong>, deve conter a imagem a ser selecionada.
  Importante ressaltar que ao salvar a imagem, devemos renomea-la para fácil localização e insercão no html.
-Exemplo: <img src="images/IMAGEM1.jpg"/> 
+<br>
+ Exemplo: <strong>< img src= "images/IMAGEM1.jpg" /></strong> 
+ <br>
 Este comando indica o nome da pasta (images) e o nome do arquivo a ser anexado (IMAGEM1.jpg)
-Acessibilidade na imagem:
-Com a função ALT após o nome da imagem, possibilita ao navegador ter uma descrição da imagem.
+</p>
+<h4>Acessibilidade na imagem:</h4>
+<p>
+Com a função <strong>ALT</strong> após o nome da imagem, possibilita ao navegador ter uma descrição da imagem.
+<br>
 Em caso de erro, ou até mesmo por uma questão de acessibilidade visual.
-Acrescenta-se: alt="Descrição da imagem"
-Exemplo: <img src="images/IMAGEM1.jpg" alt="Descrição da imagem 1"/>
+<br>
+Acrescenta-se: <strong>alt="Descrição da imagem"</strong>
+<br>
+Exemplo: <strong>< img src= "images/IMAGEM1.jpg" alt= "Descrição da imagem 1" /></strong>
+<br>
 (isto requer o máximo de detalhes na descrição)
--->
+</p>
 
-<div>
-<!--
-  DIV: Agrupamento/ caixinhas
+
+  <h3>DIV: Agrupamento/ caixinhas</h3>
+  <p>
   Pode ser colocado texto, imagens, links ou qualquer outro conteúdo DENTRO da caixa.
-  As DIVs podem ser utilizadas diversas vezes em uma página, com diversos conteúdos.
-  Para diferencia-las, podemos usar um ID (identificador) desta forma:
-  Exemplo: <div id="box1">
-  Desta forma podemos estilizar cada caixinha no CSS de uma forma diferente, 
-  através de um ID (Identificador).
--->
+  <br>
+  As <strong>DIVs</strong> podem ser utilizadas diversas vezes em uma página, com diversos conteúdos.
+  <br>
+  Para diferencia-las, podemos usar um <strong>ID (identificador)</strong> desta forma:
+  <br>
+  Exemplo: <strong> < div id= "box1" > < / div ></strong>
+  <br>
+  Desta forma podemos estilizar cada caixinha no <strong>CSS</strong> de uma forma diferente, 
+  através de um <strong>ID (Identificador)</strong>.
+</p>
 
-<h1>Heading= Título</h1>
-<!--Sempre que houver o "H" (heading), refere-se a título.
-A numeração diferencia apenas o tamanho da letra-->
+<h3>Heading= Título</h3>
+<p>
+Sempre que houver o <strong>"H" (heading)</strong>, refere-se a título.
+<br>
+A numeração diferencia apenas o tamanho da letra.
+<br>
+O <strong>Heading</strong> varia entre <strong>h1 a h6.</strong>
+</p>
 
-<p>Parágrafo</p>
-<!--O "P" refere-se a parágrafo. Normalmente utilizado após um título.
-Pode ser empregado diversas vezes dentro de um texto.-->
-
-</div>
-
-<span>Pesquisar sobre</span>
+<h3>Parágrafo</h3>
+<h4>Tag: < p > < /p ></h4>
+<p>
+  O <strong>"P"</strong> refere-se a parágrafo. 
+  <br>
+  Normalmente utilizado após um título.
+  <br>
+Pode ser empregado diversas vezes dentro de um texto.
+</p>
 
 <link rel="stylesheet" href="style.css">
 <!--
@@ -131,10 +157,12 @@ Abrir um arquivo na mesma pasta do projeto: style.css
 Neste arquivo ocorre a linguagem para estilizar o projeto.
  -->
 
- <br/> 
- <!-- Quebra de Linha - Sigla de Break
+ <h3>Quebra de Linha - Sigla de Break</h3>
+ <h4>Tag: < br ></h4>
+ <p>
  Pode ser usado para quebra de linha em um mesmo parágrafo,
- sem a necessidade de criar mais um parágrafo. -->
+ sem a necessidade de criar mais um parágrafo.
+ </p>
 
  <!--
   &nbsp; (Forma prática, mas não convencional)
@@ -147,6 +175,7 @@ Neste arquivo ocorre a linguagem para estilizar o projeto.
   (3 espaçamentos entre uma palavra e outra, em uma mesma linha)
 
  -->
-
- <p>Pesquisar mais como adicionar fontes ao projeto</p>
+<!--
+ <p>Pesquisar mais como adicionar fontes ao projeto
+ -->
 
